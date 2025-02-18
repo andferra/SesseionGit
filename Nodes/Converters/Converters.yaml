@@ -1,0 +1,53 @@
+Name: Converters
+Type: ConvertersCategoryFolder
+Children:
+- Name: KeyValueConverterTesto
+  Id: g=db28307c05a8c877de8af7812aa90369
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: ns=7;Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":41,"TextId":"OFF"}
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":41,"TextId":"ON  "}
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: None
+        Value: {"NamespaceIndex":41,"TextId":"FAULT"}

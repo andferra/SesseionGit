@@ -1,0 +1,17 @@
+Name: Groups
+Id: g=33ac98afcbbcd645bc8146197074cc43
+Type: GroupsCategoryFolder
+Children:
+- Name: admin
+  Id: g=0ebb7cb10c2981b891e4fa707437ba31
+  Type: GroupType
+  Children:
+  - Class: Reference
+    Type: HasRole
+    Target: g=9d3eb6193764f77aa7e06c764b845580
+- Name: manutentori
+  Id: g=8b1a515665afd150fb7d3c1579b5a422
+  Type: GroupType
+- Name: operatore
+  Id: g=4d5154989388e4134c75af064c771d87
+  Type: GroupType

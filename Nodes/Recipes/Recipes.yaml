@@ -1,0 +1,85 @@
+Name: Recipes
+Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchemaProduzione
+  Id: g=17a719a87677230fdd6522abce15b645
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: ModbusTag4
+      Type: BaseDataVariableType
+      DataType: UInt16
+    - Name: ModbusTag5
+      Type: BaseDataVariableType
+      DataType: UInt16
+    - Name: ModbusTag6
+      Type: BaseDataVariableType
+      DataType: UInt16
+  - Class: Reference
+    Target: ns=29;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/SesseionGit/DataStores/EmbeddedDatabaseRicette"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/SesseionGit/CommDrivers/ModbusDriver1/ModbusStation1/Tags"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Id: g=344e74868d8cfe194a8b36db561f5666
+    Type: BaseObjectType
+    Children:
+    - Name: ModbusTag4
+      Type: BaseDataVariableType
+      DataType: UInt16
+    - Name: ModbusTag5
+      Type: BaseDataVariableType
+      DataType: UInt16
+    - Name: ModbusTag6
+      Type: BaseDataVariableType
+      DataType: UInt16

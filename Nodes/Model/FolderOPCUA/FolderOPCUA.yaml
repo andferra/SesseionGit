@@ -1,0 +1,12 @@
+Name: FolderOPCUA
+Id: g=0c5fb37742ea17664f71545aa9e19162
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=fcf387b04f75a5c18cbc1ea34c4c9c5e
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Id: g=2d95e2d0ce045f996bc5cd170a4ef854
+  Type: BaseDataVariableType
+  DataType: Int32

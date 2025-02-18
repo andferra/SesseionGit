@@ -1,0 +1,7 @@
+Name: Roles
+Id: g=168315c4ba704e70bb13e35de715eb03
+Type: RolesCategoryFolder
+Children:
+- Name: Role1
+  Id: g=9d3eb6193764f77aa7e06c764b845580
+  Type: ns=1;RoleType
