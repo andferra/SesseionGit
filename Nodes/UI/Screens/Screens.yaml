@@ -5276,12 +5276,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 860.0
+      Value: 690.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 70.0
+      Value: 655.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -5345,44 +5345,6 @@ Children:
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
-  - Name: Rectangle2
-    Type: Rectangle
-    Children:
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 270.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 110.0
-    - Name: BorderThickness
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 630.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 400.0
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#008000"
-    - Name: BorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#f8e71c"
   - Name: Label3
     Type: Label
     Children:
@@ -5401,3 +5363,36 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 530.0
+  - Name: Rectangle1
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 260.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 530.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 610.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#f8e71c"
