@@ -165,10 +165,10 @@ Project:
    Uri: '5234b07b958bd65579948ea4963249f8#TrainingSessione2'
    ServerUri: 5234b07b958bd65579948ea4963249f8
  Statistics:
-  TotalNodeCount: 4372
-  Objects: 877
+  TotalNodeCount: 4379
+  Objects: 878
   ObjectTypes: 29
-  Variables: 3429
+  Variables: 3435
   VariableTypes: 0
   DataTypes: 0
   Methods: 37
